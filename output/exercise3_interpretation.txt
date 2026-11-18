@@ -1,0 +1,17 @@
+
+EXERCISE 3: STATISTICAL ROBUSTNESS AND SENSITIVITY ANALYSIS
+
+1. Two data preparation strategies were compared:
+   available-case analysis and median imputation.
+
+2. Feature_569 showed the largest change in mean difference
+   after median imputation, with an absolute change of 0.751765.
+
+3. Bootstrap analysis used 290 repetitions and 95% confidence
+   intervals.
+
+4. Feature_058 was the only selected feature whose confidence
+   interval did not include zero.
+
+5. The results demonstrate that missing-value treatment can
+   influence statistical comparisons and their interpretation.
